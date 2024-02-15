@@ -1,0 +1,373 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    font-size: 13px;
+    text-decoration: none; 
+    color: #000;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: transform 0.3s ease;
+}
+
+#nav a:hover{
+  scale: 1.5;
+  opacity: 0.5;
+}
+#nav #centeratag{
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#first{
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#one p{
+    font-size: 12px;
+    width: 17vw;
+    margin: 10px 0;
+}
+#one #imagewrapper{
+    width: 10vw;
+    height: 15vw;
+    position: relative;
+    overflow: hidden;
+}
+#imagewrapper img{
+    height: 140%;
+    width: 140%;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+    /* transform: translate(-20%, 0); */
+}
+#two{
+    height: 40vw;
+    width: 25vw;
+    /* background-color: red; */
+    position: relative;
+}
+#two #headings{
+    position: absolute;
+    top: -13%;
+    left: -11%;
+   
+}
+#two h1{
+    font-size: 55px;
+    line-height: 0.8;
+    font-weight: 200;
+    letter-spacing: -5;
+}
+#image{
+    height: 33vw;
+    width: 25vw;
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+#two p{
+    width: 35%;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 500;
+    letter-spacing:-1.3px;
+}
+#three{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+#three #cricle{
+    height: 4vw;
+    width: 4vw;
+    border-radius: 50%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+#cricle i{
+    font-size: 25px;
+}
+#three h3{
+    font-weight: 100;
+}
+
+#cricle:hover i{
+   font-size: 32px;
+}
+#secondPage{
+    position: relative;
+    padding: 0vw 10vw;
+    display: flex;
+    flex-direction: column;
+}
+#secondPage h4{
+    font-weight: 200;
+    color: #332b2bc0;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-size: 12px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+#secondPage p{
+    font-size: 18px;
+    font-weight: 450;
+    width: 85%;
+    position: relative;
+    left: 10%;
+    letter-spacing: 2px;
+    line-height: 30px;
+    text-align: right;
+}
+#secondPage span{
+    display: inline-block;
+    border-radius: 100px;
+    background-color: red;
+    margin-bottom: -10px;
+}
+#firstspan{
+    width: 80px;
+    height: 35px;
+    background: url("https://i.pinimg.com/564x/21/80/21/2180218c7a3e156592734ff2dd374d53.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#secondspan{
+    width: 50px;
+    height: 33px;
+    background: url("https://i.pinimg.com/564x/9e/13/6a/9e136ace1a95a218efa3c58ed6165a68.jpg");
+    background-size: cover;
+    background-position: center;
+}
+#thirdspan{
+    width: 60px;
+    height: 33px;
+    background: url("https://i.pinimg.com/564x/54/3f/57/543f5703d5ea3c84250aaf5f32738d2a.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: 5px;
+}
+#secondPage span:hover{
+    scale: 1.1;
+    opacity: 0.8;
+    cursor: pointer;
+}
+#thirdPage{
+   position: relative;
+   display: flex;
+   padding: 0vw 10vw;
+   justify-content: space-around;
+   gap: 130px;
+}
+#left{
+    height: 80vh;
+    width: 18vw;
+    margin-top: 100px;
+}
+#left img{
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+}
+#left img:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+#left h4{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 16px;
+}
+#left p{
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: 200;
+    width: 100%;
+    margin-top: 10px;
+}
+#right{
+    height: 95vh;
+    width: 26vw;
+    margin-top: 96px;
+    text-align: right;
+}
+#right img{
+    height: 85%;
+    width: 100%;
+    background-size: cover;
+}
+#right img:hover{
+    filter: brightness(1.3);
+    cursor: pointer;
+}
+#right h4{
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 16px;
+}
+#right p{
+    font-size: 15px;
+    letter-spacing: -1px;
+    font-weight: 200;
+    width: 100%;
+    margin-top: 10px;
+}
+#forthPage{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#forthPage img{
+    margin-top: 70px;
+    width: 70%;
+    height: 90vh;
+    
+}
+#texts{
+    width: 30%;
+    margin-top: 300px;
+}
+#texts h1{
+    margin-left: 50px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+#texts p{
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 70%;
+    letter-spacing: -1.5px;
+    font-weight: 100;
+}
+#fivthPage{
+    height: 100vh;
+    width: 100%;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 5vw; */
+}
+
+#fivthPage h2{
+    position: absolute;
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+    top: 45%;
+    left: 45%;
+    z-index: 9;
+}
+#fivthPage button{
+    display: inline-block;
+    left: 47%;
+    top: 50%;
+    align-items: center;
+    text-align: center;
+    padding: 10px 8px;
+    letter-spacing: -1px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    background: linear-gradient(rgb(208, 205, 205), rgb(227, 209, 209));
+    z-index: 9;
+}
+.videography{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+}
+.video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.button:hover .videography {
+    display: block;
+}
+
+/* .video-button:hover .video-container {
+    display: block;
+  } */
+/* #fivthPage video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+    z-index: 1;
+}
+.show{
+    height: 20vh;
+    width: 30vh;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.show h2{
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+    letter-spacing: -1px;
+    margin-bottom: 5px;
+}
+.show button{
+    align-items: center;
+    text-align: center;
+    padding: 10px 8px;
+    letter-spacing: -1px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.button:hover .video{
+   opacity: 1;
+} */
